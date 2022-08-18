@@ -22,20 +22,20 @@
       padding: 16px;
       bottom: 8px;
     }</style>
-<body>
+<body style="background-color:rgb(214, 67, 67);">
     <header class="site-header">
   <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-    <div class="container">
+    <!-- <div class="container">
       <a class="navbar-brand mr-4" href="/">ML-MT App</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarToggle">
-        <div class="navbar-nav mr-auto">
-          <a class="nav-item nav-link" href="/">Home</a>
+        <div class="navbar-nav mr-auto"> -->
+          <!-- <a class="nav-item nav-link" href="/">Home</a>
           <a class="nav-item nav-link" href="/about">About</a>
           <a class="nav-item nav-link" href="/cancer">Cancer</a>
-          <a class="nav-item nav-link" href="/diabetes">Diabetes</a>
+          <a class="nav-item nav-link" href="/diabetes">Diabetes</a> -->
         </div>
         <!-- Navbar Right Side
         <div class="navbar-nav">
@@ -46,9 +46,12 @@
     </div>
   </nav>
 </header>
-<div class="container",class="form-group">
-    <h2>IRIS Prediction</h2>
+<div class="container",class="form-group", style="text-align:center">
+    <h1>ML IRIS Prediction</h1>
+    <br>
+    <br>
     <h3>Enter the Following parameters : </h3>
+    <br>
   <form action="/result" method="POST">
       <label for="PL">Petal Length</label>
         <input type="text" id="Petal_Length" name="PL">
